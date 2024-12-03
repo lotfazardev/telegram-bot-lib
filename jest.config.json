@@ -1,0 +1,6 @@
+{
+  "roots": ["<rootDir>/test"],
+  "testPathIgnorePatterns": ["/node_modules/"],
+  "moduleFileExtensions": ["ts", "js", "json"],
+  "testMatch": ["**/test/**/*.test.ts"]
+}
