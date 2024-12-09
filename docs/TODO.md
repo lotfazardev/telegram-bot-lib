@@ -10,7 +10,7 @@ Latest version : 🚀 November 17, 2024 ([Bot API 8.0](https://core.telegram.org
   - [ ] getWebhookInfo [🔗](https://core.telegram.org/bots/api#getwebhookinfo)
   - [ ] WebhookInfo [🔗](https://core.telegram.org/bots/api#webhookinfo)
 - ### Available types [🔗](https://core.telegram.org/bots/api#available-types)
-  - [ ] User [🔗](https://core.telegram.org/bots/api#user)
+  - [x] User [🔗](https://core.telegram.org/bots/api#user)
   - [ ] Chat [🔗](https://core.telegram.org/bots/api#chat)
   - [ ] ChatFullInfo [🔗](https://core.telegram.org/bots/api#chatfullinfo)
   - [ ] Message [🔗](https://core.telegram.org/bots/api#message)
