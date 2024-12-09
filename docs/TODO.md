@@ -21,7 +21,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] TextQuote [🔗](https://core.telegram.org/bots/api#textquote)
   - [ ] ExternalReplyInfo [🔗](https://core.telegram.org/bots/api#externalreplyinfo)
   - [ ] ReplyParameters [🔗](https://core.telegram.org/bots/api#replyparameters)
-  - [ ] MessageOrigin [🔗](https://core.telegram.org/bots/api#messageorigin)
+  - [x] MessageOrigin [🔗](https://core.telegram.org/bots/api#messageorigin)
   - [ ] MessageOriginUser [🔗](https://core.telegram.org/bots/api#messageoriginuser)
   - [ ] MessageOriginHiddenUser [🔗](https://core.telegram.org/bots/api#messageoriginhiddenuser)
   - [ ] MessageOriginChat [🔗](https://core.telegram.org/bots/api#messageoriginchat)
