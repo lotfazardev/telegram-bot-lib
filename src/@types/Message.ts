@@ -70,8 +70,9 @@ export interface Message {
   from?: User
 
   /**
-   * Optional. Sender of the message when sent on behalf of a chat.
+   * Optional. Sender of the message when sent on behalf of a {@link Chat}.
    * - For example, the supergroup itself for messages sent by its anonymous administrators or a linked channel for messages automatically forwarded to the channel's discussion group.
+   * - {@link Chat}
    */
   sender_chat?: Chat
 
@@ -83,6 +84,7 @@ export interface Message {
   /**
    * Optional. The bot that actually sent the message on behalf of the business account.
    * - Available only for outgoing messages sent on behalf of the connected business account.
+   * - {@link User}
    */
   sender_business_bot?: User
 
@@ -99,12 +101,13 @@ export interface Message {
   business_connection_id?: string
 
   /**
-   * Chat the message belongs to.
+   * {@link Chat} the message belongs to.
+   * -{@link Chat}
    */
   chat: Chat
 
   /**
-   * Optional. Information about the original message for forwarded messages.
+   * Optional. {@link MessageOrigin} Information about the original message for forwarded messages.
    */
   forward_origin?: MessageOrigin
 
@@ -120,27 +123,31 @@ export interface Message {
 
   /**
    * Optional. For replies in the same chat and message thread, the original message.
-   * - Note: The `Message` object in this field will not contain further `reply_to_message` fields even if it itself is a reply.
+   * - Note: The `{@link Message}` object in this field will not contain further `reply_to_message` fields even if it itself is a reply.
    */
   reply_to_message?: Message
 
   /**
    * Optional. Information about the message that is being replied to, which may come from another chat or forum topic.
+   * - {@link ExternalReplyInfo}
    */
   external_reply?: ExternalReplyInfo
 
   /**
    * Optional. For replies that quote part of the original message, the quoted part of the message.
+   * - {@link TextQuote}
    */
   quote?: TextQuote
 
   /**
-   * Optional. For replies to a story, the original story.
+   * Optional. For replies to a {@link Story}, the original {@link Story}.
+   * - {@link Story}
    */
   reply_to_story?: Story
 
   /**
    * Optional. Bot through which the message was sent.
+   * - {@link User}
    */
   via_bot?: User
 
@@ -177,56 +184,67 @@ export interface Message {
 
   /**
    * Optional. For text messages, special entities like usernames, URLs, bot commands, etc., that appear in the text.
+   * - {@link MessageEntity}
    */
   entities?: MessageEntity[]
 
   /**
    * Optional. Options used for link preview generation for the message, if it is a text message and link preview options were changed.
+   * - {@link LinkPreviewOptions}
    */
   link_preview_options?: LinkPreviewOptions
 
   /**
    * Optional. Animation attached to the message (e.g., GIFs or small videos without sound).
+   * - {@link Animation}
    */
   animation?: Animation
 
   /**
    * Optional. Audio file attached to the message (e.g., music or podcast).
+   * - {@link Audio}
    */
   audio?: Audio
 
   /**
    * Optional. Document attached to the message (e.g., a file or text document).
+   * - {@link Document}
    */
   document?: Document
 
   /**
    * Optional. Array of photo sizes representing an image sent with the message.
+   * - {@link PhotoSize}
    */
   photo?: PhotoSize[]
 
   /**
    * Optional. Sticker attached to the message.
+   * - {@link Sticker}
    */
   sticker?: Sticker
 
   /**
    * Optional. Story associated with the message.
+   * - {@link Story}
    */
   story?: Story
 
   /**
    * Optional. Video file attached to the message.
+   * - {@link Video}
    */
   video?: Video
 
   /**
    * Optional. Video note (a circular video message) attached to the message.
+   * - {@link VideoNote}
    */
   video_note?: VideoNote
 
   /**
    * Optional. Voice message attached to the message.
+   * - {@link Voice}
    */
   voice?: Voice
 
@@ -237,6 +255,7 @@ export interface Message {
 
   /**
    * Optional. Special entities in the `caption`, such as hashtags, URLs, or mentions.
+   * - {@link MessageEntity}
    */
   caption_entities?: MessageEntity[]
 
@@ -247,41 +266,49 @@ export interface Message {
 
   /**
    * Optional. Contact information attached to the message.
+   * - {@link Contact}
    */
   contact?: Contact
 
   /**
    * Optional. Dice roll animation (used for playful messages).
+   * - {@link Dice}
    */
   dice?: Dice
 
   /**
    * Optional. Game data attached to the message.
+   * - {@link Game}
    */
   game?: Game
 
   /**
    * Optional. Poll information attached to the message.
+   * - {@link Poll}
    */
   poll?: Poll
 
   /**
-   * Optional. Venue information attached to the message (e.g., a physical location with details).
+   * Optional. {@link Venue} information attached to the message (e.g., a physical location with details).
+   * - {@link Venue}
    */
   venue?: Venue
 
   /**
    * Optional. Geographic location attached to the message.
+   * - {@link Location}
    */
   location?: Location
 
   /**
    * Optional. New members added to a group chat via this message.
+   * - {@link User}
    */
   new_chat_members?: User[]
 
   /**
    * Optional. User who left the chat (or was removed).
+   * - {@link User}
    */
   left_chat_member?: User
 
@@ -292,6 +319,7 @@ export interface Message {
 
   /**
    * Optional. New photo for the chat set via this message.
+   * - {@link PhotoSize}
    */
   new_chat_photo?: PhotoSize[]
 
@@ -317,6 +345,7 @@ export interface Message {
 
   /**
    * Optional. Information about changes to the chat's auto-delete timer.
+   * - {@link MessageAutoDeleteTimerChanged}
    */
   message_auto_delete_timer_changed?: MessageAutoDeleteTimerChanged
 
@@ -332,26 +361,31 @@ export interface Message {
 
   /**
    * Optional. Message pinned in this chat.
+   * - {@link MaybeInaccessibleMessage}
    */
   pinned_message?: MaybeInaccessibleMessage
 
   /**
    * Optional. Invoice data attached to the message.
+   * - {@link Invoice}
    */
   invoice?: Invoice
 
   /**
    * Optional. Information about a successful payment made via this message.
+   * - {@link SuccessfulPayment}
    */
   successful_payment?: SuccessfulPayment
 
   /**
    * Optional. Information about shared users via this message.
+   * - {@link UsersShared}
    */
   users_shared?: UsersShared
 
   /**
    * Optional. Information about a shared chat via this message.
+   * - {@link ChatShared}
    */
   chat_shared?: ChatShared
 
@@ -362,101 +396,121 @@ export interface Message {
 
   /**
    * Optional. If present, indicates that the sender was granted write access.
+   * - {@link WriteAccessAllowed}
    */
   write_access_allowed?: WriteAccessAllowed
 
   /**
    * Optional. Passport data sent via this message.
+   * - {@link PassportData}
    */
   passport_data?: PassportData
 
   /**
    * Optional. Information about proximity alert triggered by this message.
+   * - {@link ProximityAlertTriggered}
    */
   proximity_alert_triggered?: ProximityAlertTriggered
 
   /**
    * Optional. Data related to a chat boost added via this message.
+   * - {@link ChatBoostAdded}
    */
   boost_added?: ChatBoostAdded
 
   /**
    * Optional. Information about a newly created forum topic.
+   * - {@link ForumTopicCreated}
    */
   forum_topic_created?: ForumTopicCreated
 
   /**
    * Optional. Information about an edited forum topic.
+   * - {@link ForumTopicCreated}
    */
   forum_topic_edited?: ForumTopicCreated
 
   /**
    * Optional. If `true`, indicates that a forum topic was closed.
+   * - {@link ForumTopicClosed}
    */
   forum_topic_closed?: ForumTopicClosed
 
   /**
    * Optional. If `true`, indicates that a forum topic was reopened.
+   * - {@link ForumTopicReopened}
    */
   forum_topic_reopened?: ForumTopicReopened
 
   /**
    * Optional. If `true`, indicates that the general forum topic was hidden.
+   * - {@link GeneralForumTopicHidden}
    */
   general_forum_topic_hidden?: GeneralForumTopicHidden
 
   /**
    * Optional. If `true`, indicates that the general forum topic was unhidden.
+   * - {@link GeneralForumTopicUnhidden}
    */
   general_forum_topic_unhidden?: GeneralForumTopicUnhidden
 
   /**
    * Optional. Information about a newly created giveaway.
+   * - {@link GiveawayCreated}
    */
   giveaway_created?: GiveawayCreated
 
   /**
    * Optional. Data related to an ongoing giveaway.
+   * - {@link Giveaway}
    */
   giveaway?: Giveaway
 
   /**
    * Optional. Data about winners of a completed giveaway.
+   * - {@link GiveawayWinners}
    */
   giveaway_winners?: GiveawayWinners
 
   /**
    * Optional. Information about a completed giveaway.
+   * - {@link GiveawayCompleted}
    */
   giveaway_completed?: GiveawayCompleted
 
   /**
    * Optional. Details of a scheduled video chat.
+   * - {@link VideoChatScheduled}
    */
   video_chat_scheduled?: VideoChatScheduled
 
   /**
    * Optional. Details of a started video chat.
+   * - {@link VideoChatStarted}
    */
   video_chat_started?: VideoChatStarted
 
   /**
    * Optional. Details of an ended video chat.
+   * - {@link VideoChatEnded}
    */
   video_chat_ended?: VideoChatEnded
 
   /**
    * Optional. Participants invited to a video chat.
+   * - {@link VideoChatParticipantsInvited}
    */
   video_chat_participants_invited?: VideoChatParticipantsInvited
 
   /**
    * Optional. Data related to a web app launched via this message.
+   * - {@link WebAppData}
    */
   web_app_data?: WebAppData
 
   /**
    * Optional. Inline keyboard attached to the message.
+   * - {@link InlineKeyboardMarkup}
    */
   reply_markup?: InlineKeyboardMarkup
 }
