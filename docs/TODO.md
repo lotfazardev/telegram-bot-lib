@@ -1,6 +1,6 @@
 # Todo List 📋
 
-Latest version : 🚀 November 17, 2024 ([Bot API 8.0](https://core.telegram.org/bots/api#november-17-2024))
+Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/bots/api#december-4-2024))
 
 - ### Getting updates [🔗](https://core.telegram.org/bots/api#getting-updates)
   - [ ] Update [🔗](https://core.telegram.org/bots/api#update)
@@ -348,8 +348,10 @@ Latest version : 🚀 November 17, 2024 ([Bot API 8.0](https://core.telegram.org
   - [ ] RevenueWithdrawalStatePending [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstatepending)
   - [ ] RevenueWithdrawalStateSucceeded [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstatesucceeded)
   - [ ] RevenueWithdrawalStateFailed [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstatefailed)
+  - [ ] AffiliateInfo [🔗](https://core.telegram.org/bots/api#affiliateinfo)
   - [ ] TransactionPartner [🔗](https://core.telegram.org/bots/api#transactionpartner)
   - [ ] TransactionPartnerUser [🔗](https://core.telegram.org/bots/api#transactionpartneruser)
+  - [ ] TransactionPartnerAffiliateProgram [🔗](https://core.telegram.org/bots/api#transactionpartneraffiliateprogram)
   - [ ] TransactionPartnerFragment [🔗](https://core.telegram.org/bots/api#transactionpartnerfragment)
   - [ ] TransactionPartnerTelegramAds [🔗](https://core.telegram.org/bots/api#transactionpartnertelegramads)
   - [ ] TransactionPartnerTelegramApi [🔗](https://core.telegram.org/bots/api#transactionpartnertelegramapi)
