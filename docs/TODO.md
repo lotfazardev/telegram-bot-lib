@@ -78,7 +78,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] GiveawayCreated [🔗](https://core.telegram.org/bots/api#giveawaycreated)
   - [x] Giveaway [🔗](https://core.telegram.org/bots/api#giveaway)
   - [x] GiveawayWinners [🔗](https://core.telegram.org/bots/api#giveawaywinners)
-  - [ ] GiveawayCompleted [🔗](https://core.telegram.org/bots/api#giveawaycompleted)
+  - [x] GiveawayCompleted [🔗](https://core.telegram.org/bots/api#giveawaycompleted)
   - [ ] LinkPreviewOptions [🔗](https://core.telegram.org/bots/api#linkpreviewoptions)
   - [ ] UserProfilePhotos [🔗](https://core.telegram.org/bots/api#userprofilephotos)
   - [x] File [🔗](https://core.telegram.org/bots/api#file)
