@@ -82,7 +82,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] LinkPreviewOptions [🔗](https://core.telegram.org/bots/api#linkpreviewoptions)
   - [ ] UserProfilePhotos [🔗](https://core.telegram.org/bots/api#userprofilephotos)
   - [x] File [🔗](https://core.telegram.org/bots/api#file)
-  - [ ] WebAppInfo [🔗](https://core.telegram.org/bots/api#webappinfo)
+  - [x] WebAppInfo [🔗](https://core.telegram.org/bots/api#webappinfo)
   - [ ] ReplyKeyboardMarkup [🔗](https://core.telegram.org/bots/api#replykeyboardmarkup)
   - [ ] KeyboardButton [🔗](https://core.telegram.org/bots/api#keyboardbutton)
   - [ ] KeyboardButtonRequestUsers [🔗](https://core.telegram.org/bots/api#keyboardbuttonrequestusers)
