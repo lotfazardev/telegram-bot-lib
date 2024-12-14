@@ -105,7 +105,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] ChatMemberAdministrator [🔗](https://core.telegram.org/bots/api#chatmemberadministrator)
   - [x] ChatMemberMember [🔗](https://core.telegram.org/bots/api#chatmembermember)
   - [x] ChatMemberRestricted [🔗](https://core.telegram.org/bots/api#chatmemberrestricted)
-  - [ ] ChatMemberLeft [🔗](https://core.telegram.org/bots/api#chatmemberleft)
+  - [x] ChatMemberLeft [🔗](https://core.telegram.org/bots/api#chatmemberleft)
   - [ ] ChatMemberBanned [🔗](https://core.telegram.org/bots/api#chatmemberbanned)
   - [ ] ChatJoinRequest [🔗](https://core.telegram.org/bots/api#chatjoinrequest)
   - [ ] ChatPermissions [🔗](https://core.telegram.org/bots/api#chatpermissions)
