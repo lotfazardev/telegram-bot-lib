@@ -47,7 +47,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] Poll [🔗](https://core.telegram.org/bots/api#poll)
   - [x] Location [🔗](https://core.telegram.org/bots/api#location)
   - [x] Venue [🔗](https://core.telegram.org/bots/api#venue)
-  - [ ] WebAppData [🔗](https://core.telegram.org/bots/api#webappdata)
+  - [x] WebAppData [🔗](https://core.telegram.org/bots/api#webappdata)
   - [x] ProximityAlertTriggered [🔗](https://core.telegram.org/bots/api#proximityalerttriggered)
   - [ ] MessageAutoDeleteTimerChanged [🔗](https://core.telegram.org/bots/api#messageautodeletetimerchanged)
   - [ ] ChatBoostAdded [🔗](https://core.telegram.org/bots/api#chatboostadded)
