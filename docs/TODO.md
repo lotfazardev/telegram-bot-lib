@@ -71,7 +71,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] UsersShared [🔗](https://core.telegram.org/bots/api#usersshared)
   - [x] ChatShared [🔗](https://core.telegram.org/bots/api#chatshared)
   - [x] WriteAccessAllowed [🔗](https://core.telegram.org/bots/api#writeaccessallowed)
-  - [ ] VideoChatScheduled [🔗](https://core.telegram.org/bots/api#videochatscheduled)
+  - [x] VideoChatScheduled [🔗](https://core.telegram.org/bots/api#videochatscheduled)
   - [ ] VideoChatStarted [🔗](https://core.telegram.org/bots/api#videochatstarted)
   - [ ] VideoChatEnded [🔗](https://core.telegram.org/bots/api#videochatended)
   - [ ] VideoChatParticipantsInvited [🔗](https://core.telegram.org/bots/api#videochatparticipantsinvited)
