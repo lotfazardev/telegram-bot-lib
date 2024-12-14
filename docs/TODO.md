@@ -16,7 +16,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] Message [🔗](https://core.telegram.org/bots/api#message)
   - [x] MessageId [🔗](https://core.telegram.org/bots/api#messageid)
   - [x] InaccessibleMessage [🔗](https://core.telegram.org/bots/api#inaccessiblemessage)
-  - [ ] MaybeInaccessibleMessage [🔗](https://core.telegram.org/bots/api#maybeinaccessiblemessage)
+  - [x] MaybeInaccessibleMessage [🔗](https://core.telegram.org/bots/api#maybeinaccessiblemessage)
   - [ ] MessageEntity [🔗](https://core.telegram.org/bots/api#messageentity)
   - [ ] TextQuote [🔗](https://core.telegram.org/bots/api#textquote)
   - [ ] ExternalReplyInfo [🔗](https://core.telegram.org/bots/api#externalreplyinfo)
