@@ -28,7 +28,7 @@ export interface InputPaidMediaVideo {
    * Thumbnails can't be reused and can only be uploaded as a new file.
    * Use `"attach://<file_attach_name>"` if the thumbnail was uploaded using `multipart/form-data` under `<file_attach_name>`.
    *
-   * More information: [Sending Files](https://core.telegram.org/bots/api#sending-files).
+   *   * -@see {@link SendingFiles}
    */
   thumbnail?: SendFile
 
