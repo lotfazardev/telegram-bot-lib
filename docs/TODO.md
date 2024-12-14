@@ -99,7 +99,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] ChatPhoto [🔗](https://core.telegram.org/bots/api#chatphoto)
   - [x] ChatInviteLink [🔗](https://core.telegram.org/bots/api#chatinvitelink)
   - [x] ChatAdministratorRights [🔗](https://core.telegram.org/bots/api#chatadministratorrights)
-  - [ ] ChatMemberUpdated [🔗](https://core.telegram.org/bots/api#chatmemberupdated)
+  - [x] ChatMemberUpdated [🔗](https://core.telegram.org/bots/api#chatmemberupdated)
   - [ ] ChatMember [🔗](https://core.telegram.org/bots/api#chatmember)
   - [ ] ChatMemberOwner [🔗](https://core.telegram.org/bots/api#chatmemberowner)
   - [ ] ChatMemberAdministrator [🔗](https://core.telegram.org/bots/api#chatmemberadministrator)
