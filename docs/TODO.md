@@ -116,7 +116,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] BusinessOpeningHours [🔗](https://core.telegram.org/bots/api#businessopeninghours)
   - [ ] ChatLocation [🔗](https://core.telegram.org/bots/api#chatlocation)
   - [ ] ReactionType [🔗](https://core.telegram.org/bots/api#reactiontype)
-  - [ ] ReactionTypeEmoji [🔗](https://core.telegram.org/bots/api#reactiontypeemoji)
+  - [x] ReactionTypeEmoji [🔗](https://core.telegram.org/bots/api#reactiontypeemoji)
   - [x] ReactionTypeCustomEmoji [🔗](https://core.telegram.org/bots/api#reactiontypecustomemoji)
   - [x] ReactionTypePaid [🔗](https://core.telegram.org/bots/api#reactiontypepaid)
   - [x] ReactionCount [🔗](https://core.telegram.org/bots/api#reactioncount)
