@@ -84,7 +84,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] File [🔗](https://core.telegram.org/bots/api#file)
   - [x] WebAppInfo [🔗](https://core.telegram.org/bots/api#webappinfo)
   - [x] ReplyKeyboardMarkup [🔗](https://core.telegram.org/bots/api#replykeyboardmarkup)
-  - [ ] KeyboardButton [🔗](https://core.telegram.org/bots/api#keyboardbutton)
+  - [x] KeyboardButton [🔗](https://core.telegram.org/bots/api#keyboardbutton)
   - [ ] KeyboardButtonRequestUsers [🔗](https://core.telegram.org/bots/api#keyboardbuttonrequestusers)
   - [ ] KeyboardButtonRequestChat [🔗](https://core.telegram.org/bots/api#keyboardbuttonrequestchat)
   - [ ] KeyboardButtonPollType [🔗](https://core.telegram.org/bots/api#keyboardbuttonpolltype)
