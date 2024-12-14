@@ -109,7 +109,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] ChatMemberBanned [🔗](https://core.telegram.org/bots/api#chatmemberbanned)
   - [x] ChatJoinRequest [🔗](https://core.telegram.org/bots/api#chatjoinrequest)
   - [x] ChatPermissions [🔗](https://core.telegram.org/bots/api#chatpermissions)
-  - [ ] Birthdate [🔗](https://core.telegram.org/bots/api#birthdate)
+  - [x] Birthdate [🔗](https://core.telegram.org/bots/api#birthdate)
   - [ ] BusinessIntro [🔗](https://core.telegram.org/bots/api#businessintro)
   - [ ] BusinessLocation [🔗](https://core.telegram.org/bots/api#businesslocation)
   - [ ] BusinessOpeningHoursInterval [🔗](https://core.telegram.org/bots/api#businessopeninghoursinterval)
