@@ -46,7 +46,7 @@ export interface ReplyParameters {
 
   /**
    * Optional. Position of the quoted text in the original message (in UTF-16 code units).
-   * - {@link Integer} - The exact position of the quote in the original message.
+   * - {@link Number} - The exact position of the quote in the original message.
    */
   quote_position?: number
 }

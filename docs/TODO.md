@@ -49,7 +49,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] Venue [🔗](https://core.telegram.org/bots/api#venue)
   - [x] WebAppData [🔗](https://core.telegram.org/bots/api#webappdata)
   - [x] ProximityAlertTriggered [🔗](https://core.telegram.org/bots/api#proximityalerttriggered)
-  - [ ] MessageAutoDeleteTimerChanged [🔗](https://core.telegram.org/bots/api#messageautodeletetimerchanged)
+  - [x] MessageAutoDeleteTimerChanged [🔗](https://core.telegram.org/bots/api#messageautodeletetimerchanged)
   - [ ] ChatBoostAdded [🔗](https://core.telegram.org/bots/api#chatboostadded)
   - [ ] BackgroundFill [🔗](https://core.telegram.org/bots/api#backgroundfill)
   - [ ] BackgroundFillSolid [🔗](https://core.telegram.org/bots/api#backgroundfillsolid)
