@@ -119,7 +119,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] ReactionTypeEmoji [🔗](https://core.telegram.org/bots/api#reactiontypeemoji)
   - [ ] ReactionTypeCustomEmoji [🔗](https://core.telegram.org/bots/api#reactiontypecustomemoji)
   - [ ] ReactionTypePaid [🔗](https://core.telegram.org/bots/api#reactiontypepaid)
-  - [ ] ReactionCount [🔗](https://core.telegram.org/bots/api#reactioncount)
+  - [x] ReactionCount [🔗](https://core.telegram.org/bots/api#reactioncount)
   - [ ] MessageReactionUpdated [🔗](https://core.telegram.org/bots/api#messagereactionupdated)
   - [ ] MessageReactionCountUpdated [🔗](https://core.telegram.org/bots/api#messagereactioncountupdated)
   - [ ] ForumTopic [🔗](https://core.telegram.org/bots/api#forumtopic)
