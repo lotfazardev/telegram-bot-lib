@@ -92,7 +92,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] InlineKeyboardMarkup [🔗](https://core.telegram.org/bots/api#inlinekeyboardmarkup)
   - [x] InlineKeyboardButton [🔗](https://core.telegram.org/bots/api#inlinekeyboardbutton)
   - [x] LoginUrl [🔗](https://core.telegram.org/bots/api#loginurl)
-  - [ ] SwitchInlineQueryChosenChat [🔗](https://core.telegram.org/bots/api#switchinlinequerychosenchat)
+  - [x] SwitchInlineQueryChosenChat [🔗](https://core.telegram.org/bots/api#switchinlinequerychosenchat)
   - [ ] CopyTextButton [🔗](https://core.telegram.org/bots/api#copytextbutton)
   - [ ] CallbackQuery [🔗](https://core.telegram.org/bots/api#callbackquery)
   - [ ] ForceReply [🔗](https://core.telegram.org/bots/api#forcereply)
