@@ -67,7 +67,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] ForumTopicReopened [🔗](https://core.telegram.org/bots/api#forumtopicreopened)
   - [x] GeneralForumTopicHidden [🔗](https://core.telegram.org/bots/api#generalforumtopichidden)
   - [x] GeneralForumTopicUnhidden [🔗](https://core.telegram.org/bots/api#generalforumtopicunhidden)
-  - [ ] SharedUser [🔗](https://core.telegram.org/bots/api#shareduser)
+  - [x] SharedUser [🔗](https://core.telegram.org/bots/api#shareduser)
   - [ ] UsersShared [🔗](https://core.telegram.org/bots/api#usersshared)
   - [x] ChatShared [🔗](https://core.telegram.org/bots/api#chatshared)
   - [ ] WriteAccessAllowed [🔗](https://core.telegram.org/bots/api#writeaccessallowed)
