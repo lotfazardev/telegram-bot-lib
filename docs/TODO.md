@@ -365,7 +365,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] EncryptedCredentials [🔗](https://core.telegram.org/bots/api#encryptedcredentials)
   - [ ] setPassportDataErrors [🔗](https://core.telegram.org/bots/api#setpassportdataerrors)
   - [ ] PassportElementError [🔗](https://core.telegram.org/bots/api#passportelementerror)
-  - [ ] PassportElementErrorDataField [🔗](https://core.telegram.org/bots/api#passportelementerrordatafield)
+  - [x] PassportElementErrorDataField [🔗](https://core.telegram.org/bots/api#passportelementerrordatafield)
   - [ ] PassportElementErrorFrontSide [🔗](https://core.telegram.org/bots/api#passportelementerrorfrontside)
   - [ ] PassportElementErrorReverseSide [🔗](https://core.telegram.org/bots/api#passportelementerrorreverseside)
   - [ ] PassportElementErrorSelfie [🔗](https://core.telegram.org/bots/api#passportelementerrorselfie)
