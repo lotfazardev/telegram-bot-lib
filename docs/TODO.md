@@ -336,7 +336,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] editUserStarSubscription [🔗](https://core.telegram.org/bots/api#edituserstarsubscription)
   - [x] LabeledPrice [🔗](https://core.telegram.org/bots/api#labeledprice)
   - [x] Invoice [🔗](https://core.telegram.org/bots/api#invoice)
-  - [ ] ShippingAddress [🔗](https://core.telegram.org/bots/api#shippingaddress)
+  - [x] ShippingAddress [🔗](https://core.telegram.org/bots/api#shippingaddress)
   - [ ] OrderInfo [🔗](https://core.telegram.org/bots/api#orderinfo)
   - [ ] ShippingOption [🔗](https://core.telegram.org/bots/api#shippingoption)
   - [ ] SuccessfulPayment [🔗](https://core.telegram.org/bots/api#successfulpayment)
