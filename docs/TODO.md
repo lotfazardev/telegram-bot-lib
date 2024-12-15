@@ -347,7 +347,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] RevenueWithdrawalState [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstate)
   - [x] RevenueWithdrawalStatePending [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstatepending)
   - [x] RevenueWithdrawalStateSucceeded [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstatesucceeded)
-  - [ ] RevenueWithdrawalStateFailed [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstatefailed)
+  - [x] RevenueWithdrawalStateFailed [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstatefailed)
   - [x] AffiliateInfo [🔗](https://core.telegram.org/bots/api#affiliateinfo)
   - [ ] TransactionPartner [🔗](https://core.telegram.org/bots/api#transactionpartner)
   - [ ] TransactionPartnerUser [🔗](https://core.telegram.org/bots/api#transactionpartneruser)
