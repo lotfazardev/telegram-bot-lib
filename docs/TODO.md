@@ -54,7 +54,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] BackgroundFill [🔗](https://core.telegram.org/bots/api#backgroundfill)
   - [x] BackgroundFillSolid [🔗](https://core.telegram.org/bots/api#backgroundfillsolid)
   - [x] BackgroundFillGradient [🔗](https://core.telegram.org/bots/api#backgroundfillgradient)
-  - [ ] BackgroundFillFreeformGradient [🔗](https://core.telegram.org/bots/api#backgroundfillfreeformgradient)
+  - [x] BackgroundFillFreeformGradient [🔗](https://core.telegram.org/bots/api#backgroundfillfreeformgradient)
   - [ ] BackgroundType [🔗](https://core.telegram.org/bots/api#backgroundtype)
   - [ ] BackgroundTypeFill [🔗](https://core.telegram.org/bots/api#backgroundtypefill)
   - [ ] BackgroundTypeWallpaper [🔗](https://core.telegram.org/bots/api#backgroundtypewallpaper)
