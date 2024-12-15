@@ -362,7 +362,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] PassportData [🔗](https://core.telegram.org/bots/api#passportdata)
   - [x] PassportFile [🔗](https://core.telegram.org/bots/api#passportfile)
   - [ ] EncryptedPassportElement [🔗](https://core.telegram.org/bots/api#encryptedpassportelement)
-  - [ ] EncryptedCredentials [🔗](https://core.telegram.org/bots/api#encryptedcredentials)
+  - [x] EncryptedCredentials [🔗](https://core.telegram.org/bots/api#encryptedcredentials)
   - [ ] setPassportDataErrors [🔗](https://core.telegram.org/bots/api#setpassportdataerrors)
   - [ ] PassportElementError [🔗](https://core.telegram.org/bots/api#passportelementerror)
   - [ ] PassportElementErrorDataField [🔗](https://core.telegram.org/bots/api#passportelementerrordatafield)
