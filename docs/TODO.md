@@ -143,7 +143,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] ChatBoostSource [🔗](https://core.telegram.org/bots/api#chatboostsource)
   - [ ] ChatBoostSourcePremium [🔗](https://core.telegram.org/bots/api#chatboostsourcepremium)
   - [ ] ChatBoostSourceGiftCode [🔗](https://core.telegram.org/bots/api#chatboostsourcegiftcode)
-  - [ ] ChatBoostSourceGiveaway [🔗](https://core.telegram.org/bots/api#chatboostsourcegiveaway)
+  - [x] ChatBoostSourceGiveaway [🔗](https://core.telegram.org/bots/api#chatboostsourcegiveaway)
   - [x] ChatBoost [🔗](https://core.telegram.org/bots/api#chatboost)
   - [x] ChatBoostUpdated [🔗](https://core.telegram.org/bots/api#chatboostupdated)
   - [x] ChatBoostRemoved [🔗](https://core.telegram.org/bots/api#chatboostremoved)
