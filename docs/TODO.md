@@ -121,7 +121,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] ReactionTypePaid [🔗](https://core.telegram.org/bots/api#reactiontypepaid)
   - [x] ReactionCount [🔗](https://core.telegram.org/bots/api#reactioncount)
   - [x] MessageReactionUpdated [🔗](https://core.telegram.org/bots/api#messagereactionupdated)
-  - [ ] MessageReactionCountUpdated [🔗](https://core.telegram.org/bots/api#messagereactioncountupdated)
+  - [x] MessageReactionCountUpdated [🔗](https://core.telegram.org/bots/api#messagereactioncountupdated)
   - [ ] ForumTopic [🔗](https://core.telegram.org/bots/api#forumtopic)
   - [ ] BotCommand [🔗](https://core.telegram.org/bots/api#botcommand)
   - [ ] BotCommandScope [🔗](https://core.telegram.org/bots/api#botcommandscope)
