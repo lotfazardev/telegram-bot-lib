@@ -380,4 +380,4 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] CallbackGame [🔗](https://core.telegram.org/bots/api#callbackgame)
   - [ ] setGameScore [🔗](https://core.telegram.org/bots/api#setgamescore)
   - [ ] getGameHighScores [🔗](https://core.telegram.org/bots/api#getgamehighscores)
-  - [ ] GameHighScore [🔗](https://core.telegram.org/bots/api#gamehighscore)
+  - [x] GameHighScore [🔗](https://core.telegram.org/bots/api#gamehighscore)
