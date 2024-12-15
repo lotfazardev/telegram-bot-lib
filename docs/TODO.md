@@ -58,7 +58,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] BackgroundType [🔗](https://core.telegram.org/bots/api#backgroundtype)
   - [x] BackgroundTypeFill [🔗](https://core.telegram.org/bots/api#backgroundtypefill)
   - [x] BackgroundTypeWallpaper [🔗](https://core.telegram.org/bots/api#backgroundtypewallpaper)
-  - [ ] BackgroundTypePattern [🔗](https://core.telegram.org/bots/api#backgroundtypepattern)
+  - [x] BackgroundTypePattern [🔗](https://core.telegram.org/bots/api#backgroundtypepattern)
   - [ ] BackgroundTypeChatTheme [🔗](https://core.telegram.org/bots/api#backgroundtypechattheme)
   - [ ] ChatBackground [🔗](https://core.telegram.org/bots/api#chatbackground)
   - [x] ForumTopicCreated [🔗](https://core.telegram.org/bots/api#forumtopiccreated)
