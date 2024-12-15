@@ -16,7 +16,7 @@
     "build": "tsup",
     "changeset:status": "changeset status",
     "commitlint": "commitlint --edit",
-    "format": "prettier --ignore-unknown --write",
+    "format": "prettier --ignore-unknown --write .",
     "lint-staged": "lint-staged",
     "lint": "eslint .",
     "prepare": "husky",
