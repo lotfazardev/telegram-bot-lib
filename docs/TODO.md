@@ -130,7 +130,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] BotCommandScopeAllPrivateChats [🔗](https://core.telegram.org/bots/api#botcommandscopeallprivatechats)
   - [x] BotCommandScopeAllGroupChats [🔗](https://core.telegram.org/bots/api#botcommandscopeallgroupchats)
   - [x] BotCommandScopeAllChatAdministrators [🔗](https://core.telegram.org/bots/api#botcommandscopeallchatadministrators)
-  - [ ] BotCommandScopeChat [🔗](https://core.telegram.org/bots/api#botcommandscopechat)
+  - [x] BotCommandScopeChat [🔗](https://core.telegram.org/bots/api#botcommandscopechat)
   - [x] BotCommandScopeChatAdministrators [🔗](https://core.telegram.org/bots/api#botcommandscopechatadministrators)
   - [x] BotCommandScopeChatMember [🔗](https://core.telegram.org/bots/api#botcommandscopechatmember)
   - [ ] BotName [🔗](https://core.telegram.org/bots/api#botname)
