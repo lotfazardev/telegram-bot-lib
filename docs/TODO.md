@@ -371,7 +371,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] PassportElementErrorSelfie [🔗](https://core.telegram.org/bots/api#passportelementerrorselfie)
   - [x] PassportElementErrorFile [🔗](https://core.telegram.org/bots/api#passportelementerrorfile)
   - [x] PassportElementErrorFiles [🔗](https://core.telegram.org/bots/api#passportelementerrorfiles)
-  - [ ] PassportElementErrorTranslationFile [🔗](https://core.telegram.org/bots/api#passportelementerrortranslationfile)
+  - [x] PassportElementErrorTranslationFile [🔗](https://core.telegram.org/bots/api#passportelementerrortranslationfile)
   - [ ] PassportElementErrorTranslationFiles [🔗](https://core.telegram.org/bots/api#passportelementerrortranslationfiles)
   - [ ] PassportElementErrorUnspecified [🔗](https://core.telegram.org/bots/api#passportelementerrorunspecified)
 - ### Games [🔗](https://core.telegram.org/bots/api#games)
