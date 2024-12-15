@@ -140,7 +140,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] MenuButtonCommands [🔗](https://core.telegram.org/bots/api#menubuttoncommands)
   - [ ] MenuButtonWebApp [🔗](https://core.telegram.org/bots/api#menubuttonwebapp)
   - [ ] MenuButtonDefault [🔗](https://core.telegram.org/bots/api#menubuttondefault)
-  - [ ] ChatBoostSource [🔗](https://core.telegram.org/bots/api#chatboostsource)
+  - [x] ChatBoostSource [🔗](https://core.telegram.org/bots/api#chatboostsource)
   - [x] ChatBoostSourcePremium [🔗](https://core.telegram.org/bots/api#chatboostsourcepremium)
   - [x] ChatBoostSourceGiftCode [🔗](https://core.telegram.org/bots/api#chatboostsourcegiftcode)
   - [x] ChatBoostSourceGiveaway [🔗](https://core.telegram.org/bots/api#chatboostsourcegiveaway)
