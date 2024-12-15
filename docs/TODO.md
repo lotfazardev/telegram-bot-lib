@@ -360,7 +360,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] StarTransactions [🔗](https://core.telegram.org/bots/api#startransactions)
 - ### Telegram Passport [🔗](https://core.telegram.org/bots/api#telegram-passport)
   - [x] PassportData [🔗](https://core.telegram.org/bots/api#passportdata)
-  - [ ] PassportFile [🔗](https://core.telegram.org/bots/api#passportfile)
+  - [x] PassportFile [🔗](https://core.telegram.org/bots/api#passportfile)
   - [ ] EncryptedPassportElement [🔗](https://core.telegram.org/bots/api#encryptedpassportelement)
   - [ ] EncryptedCredentials [🔗](https://core.telegram.org/bots/api#encryptedcredentials)
   - [ ] setPassportDataErrors [🔗](https://core.telegram.org/bots/api#setpassportdataerrors)
