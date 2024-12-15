@@ -126,7 +126,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] BotCommand [🔗](https://core.telegram.org/bots/api#botcommand)
   - [x] BotCommandScope [🔗](https://core.telegram.org/bots/api#botcommandscope)
   - [ ] Determining list of commands [🔗](https://core.telegram.org/bots/api#determining-list-of-commands)
-  - [ ] BotCommandScopeDefault [🔗](https://core.telegram.org/bots/api#botcommandscopedefault)
+  - [x] BotCommandScopeDefault [🔗](https://core.telegram.org/bots/api#botcommandscopedefault)
   - [ ] BotCommandScopeAllPrivateChats [🔗](https://core.telegram.org/bots/api#botcommandscopeallprivatechats)
   - [ ] BotCommandScopeAllGroupChats [🔗](https://core.telegram.org/bots/api#botcommandscopeallgroupchats)
   - [x] BotCommandScopeAllChatAdministrators [🔗](https://core.telegram.org/bots/api#botcommandscopeallchatadministrators)
