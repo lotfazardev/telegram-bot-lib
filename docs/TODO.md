@@ -343,7 +343,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] RefundedPayment [🔗](https://core.telegram.org/bots/api#refundedpayment)
   - [x] ShippingQuery [🔗](https://core.telegram.org/bots/api#shippingquery)
   - [x] PreCheckoutQuery [🔗](https://core.telegram.org/bots/api#precheckoutquery)
-  - [ ] PaidMediaPurchased [🔗](https://core.telegram.org/bots/api#paidmediapurchased)
+  - [x] PaidMediaPurchased [🔗](https://core.telegram.org/bots/api#paidmediapurchased)
   - [ ] RevenueWithdrawalState [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstate)
   - [ ] RevenueWithdrawalStatePending [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstatepending)
   - [ ] RevenueWithdrawalStateSucceeded [🔗](https://core.telegram.org/bots/api#revenuewithdrawalstatesucceeded)
