@@ -353,7 +353,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] TransactionPartnerUser [🔗](https://core.telegram.org/bots/api#transactionpartneruser)
   - [x] TransactionPartnerAffiliateProgram [🔗](https://core.telegram.org/bots/api#transactionpartneraffiliateprogram)
   - [x] TransactionPartnerFragment [🔗](https://core.telegram.org/bots/api#transactionpartnerfragment)
-  - [ ] TransactionPartnerTelegramAds [🔗](https://core.telegram.org/bots/api#transactionpartnertelegramads)
+  - [x] TransactionPartnerTelegramAds [🔗](https://core.telegram.org/bots/api#transactionpartnertelegramads)
   - [ ] TransactionPartnerTelegramApi [🔗](https://core.telegram.org/bots/api#transactionpartnertelegramapi)
   - [ ] TransactionPartnerOther [🔗](https://core.telegram.org/bots/api#transactionpartnerother)
   - [ ] StarTransaction [🔗](https://core.telegram.org/bots/api#startransaction)
