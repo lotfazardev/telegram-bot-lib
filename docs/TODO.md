@@ -355,7 +355,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] TransactionPartnerFragment [🔗](https://core.telegram.org/bots/api#transactionpartnerfragment)
   - [x] TransactionPartnerTelegramAds [🔗](https://core.telegram.org/bots/api#transactionpartnertelegramads)
   - [x] TransactionPartnerTelegramApi [🔗](https://core.telegram.org/bots/api#transactionpartnertelegramapi)
-  - [ ] TransactionPartnerOther [🔗](https://core.telegram.org/bots/api#transactionpartnerother)
+  - [x] TransactionPartnerOther [🔗](https://core.telegram.org/bots/api#transactionpartnerother)
   - [ ] StarTransaction [🔗](https://core.telegram.org/bots/api#startransaction)
   - [ ] StarTransactions [🔗](https://core.telegram.org/bots/api#startransactions)
 - ### Telegram Passport [🔗](https://core.telegram.org/bots/api#telegram-passport)
