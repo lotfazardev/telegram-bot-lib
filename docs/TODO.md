@@ -286,7 +286,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] setStickerSetThumbnail [🔗](https://core.telegram.org/bots/api#setstickersetthumbnail)
   - [ ] setCustomEmojiStickerSetThumbnail [🔗](https://core.telegram.org/bots/api#setcustomemojistickersetthumbnail)
   - [ ] deleteStickerSet [🔗](https://core.telegram.org/bots/api#deletestickerset)
-  - [ ] Gift [🔗](https://core.telegram.org/bots/api#gift)
+  - [x] Gift [🔗](https://core.telegram.org/bots/api#gift)
   - [ ] Gifts [🔗](https://core.telegram.org/bots/api#gifts)
   - [ ] getAvailableGifts [🔗](https://core.telegram.org/bots/api#getavailablegifts)
   - [ ] sendGift [🔗](https://core.telegram.org/bots/api#sendgift)
