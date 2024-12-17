@@ -315,7 +315,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] InlineQueryResultCachedVideo [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedvideo)
   - [ ] InlineQueryResultCachedVoice [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedvoice)
   - [ ] InlineQueryResultCachedAudio [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedaudio)
-  - [ ] InputMessageContent [🔗](https://core.telegram.org/bots/api#inputmessagecontent)
+  - [x] InputMessageContent [🔗](https://core.telegram.org/bots/api#inputmessagecontent)
   - [x] InputTextMessageContent [🔗](https://core.telegram.org/bots/api#inputtextmessagecontent)
   - [x] InputLocationMessageContent [🔗](https://core.telegram.org/bots/api#inputlocationmessagecontent)
   - [x] InputVenueMessageContent [🔗](https://core.telegram.org/bots/api#inputvenuemessagecontent)
