@@ -34,6 +34,7 @@ export interface InlineQuery {
    * - "group"
    * - "supergroup"
    * - "channel"
+   *
    * The chat type should always be known for requests sent from official clients and most third-party clients,
    * unless the request was sent from a secret chat.
    */
