@@ -319,7 +319,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] InputTextMessageContent [🔗](https://core.telegram.org/bots/api#inputtextmessagecontent)
   - [x] InputLocationMessageContent [🔗](https://core.telegram.org/bots/api#inputlocationmessagecontent)
   - [x] InputVenueMessageContent [🔗](https://core.telegram.org/bots/api#inputvenuemessagecontent)
-  - [ ] InputContactMessageContent [🔗](https://core.telegram.org/bots/api#inputcontactmessagecontent)
+  - [x] InputContactMessageContent [🔗](https://core.telegram.org/bots/api#inputcontactmessagecontent)
   - [ ] InputInvoiceMessageContent [🔗](https://core.telegram.org/bots/api#inputinvoicemessagecontent)
   - [ ] ChosenInlineResult [🔗](https://core.telegram.org/bots/api#choseninlineresult)
   - [ ] answerWebAppQuery [🔗](https://core.telegram.org/bots/api#answerwebappquery)
