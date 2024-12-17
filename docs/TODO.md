@@ -293,7 +293,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
 - ### Inline mode [🔗](https://core.telegram.org/bots/api#inline-mode)
   - [x] InlineQuery [🔗](https://core.telegram.org/bots/api#inlinequery)
   - [ ] answerInlineQuery [🔗](https://core.telegram.org/bots/api#answerinlinequery)
-  - [ ] InlineQueryResultsButton [🔗](https://core.telegram.org/bots/api#inlinequeryresultsbutton)
+  - [x] InlineQueryResultsButton [🔗](https://core.telegram.org/bots/api#inlinequeryresultsbutton)
   - [ ] InlineQueryResult [🔗](https://core.telegram.org/bots/api#inlinequeryresult)
   - [ ] InlineQueryResultArticle [🔗](https://core.telegram.org/bots/api#inlinequeryresultarticle)
   - [ ] InlineQueryResultPhoto [🔗](https://core.telegram.org/bots/api#inlinequeryresultphoto)
