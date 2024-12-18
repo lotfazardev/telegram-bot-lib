@@ -325,7 +325,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] answerWebAppQuery [🔗](https://core.telegram.org/bots/api#answerwebappquery)
   - [x] SentWebAppMessage [🔗](https://core.telegram.org/bots/api#sentwebappmessage)
   - [ ] savePreparedInlineMessage [🔗](https://core.telegram.org/bots/api#savepreparedinlinemessage)
-  - [ ] PreparedInlineMessage [🔗](https://core.telegram.org/bots/api#preparedinlinemessage)
+  - [x] PreparedInlineMessage [🔗](https://core.telegram.org/bots/api#preparedinlinemessage)
 - ### Payments [🔗](https://core.telegram.org/bots/api#payments)
   - [ ] sendInvoice [🔗](https://core.telegram.org/bots/api#sendinvoice)
   - [ ] createInvoiceLink [🔗](https://core.telegram.org/bots/api#createinvoicelink)
