@@ -306,7 +306,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] InlineQueryResultLocation [🔗](https://core.telegram.org/bots/api#inlinequeryresultlocation)
   - [x] InlineQueryResultVenue [🔗](https://core.telegram.org/bots/api#inlinequeryresultvenue)
   - [x] InlineQueryResultContact [🔗](https://core.telegram.org/bots/api#inlinequeryresultcontact)
-  - [ ] InlineQueryResultGame [🔗](https://core.telegram.org/bots/api#inlinequeryresultgame)
+  - [x] InlineQueryResultGame [🔗](https://core.telegram.org/bots/api#inlinequeryresultgame)
   - [ ] InlineQueryResultCachedPhoto [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedphoto)
   - [ ] InlineQueryResultCachedGif [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedgif)
   - [ ] InlineQueryResultCachedMpeg4Gif [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedmpeg4gif)
