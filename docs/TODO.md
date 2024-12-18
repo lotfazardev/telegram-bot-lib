@@ -294,7 +294,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] InlineQuery [🔗](https://core.telegram.org/bots/api#inlinequery)
   - [ ] answerInlineQuery [🔗](https://core.telegram.org/bots/api#answerinlinequery)
   - [x] InlineQueryResultsButton [🔗](https://core.telegram.org/bots/api#inlinequeryresultsbutton)
-  - [ ] InlineQueryResult [🔗](https://core.telegram.org/bots/api#inlinequeryresult)
+  - [x] InlineQueryResult [🔗](https://core.telegram.org/bots/api#inlinequeryresult)
   - [x] InlineQueryResultArticle [🔗](https://core.telegram.org/bots/api#inlinequeryresultarticle)
   - [x] InlineQueryResultPhoto [🔗](https://core.telegram.org/bots/api#inlinequeryresultphoto)
   - [x] InlineQueryResultGif [🔗](https://core.telegram.org/bots/api#inlinequeryresultgif)
