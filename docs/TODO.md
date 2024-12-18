@@ -299,7 +299,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] InlineQueryResultPhoto [🔗](https://core.telegram.org/bots/api#inlinequeryresultphoto)
   - [x] InlineQueryResultGif [🔗](https://core.telegram.org/bots/api#inlinequeryresultgif)
   - [x] InlineQueryResultMpeg4Gif [🔗](https://core.telegram.org/bots/api#inlinequeryresultmpeg4gif)
-  - [ ] InlineQueryResultVideo [🔗](https://core.telegram.org/bots/api#inlinequeryresultvideo)
+  - [x] InlineQueryResultVideo [🔗](https://core.telegram.org/bots/api#inlinequeryresultvideo)
   - [ ] InlineQueryResultAudio [🔗](https://core.telegram.org/bots/api#inlinequeryresultaudio)
   - [ ] InlineQueryResultVoice [🔗](https://core.telegram.org/bots/api#inlinequeryresultvoice)
   - [ ] InlineQueryResultDocument [🔗](https://core.telegram.org/bots/api#inlinequeryresultdocument)
