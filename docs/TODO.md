@@ -302,7 +302,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] InlineQueryResultVideo [🔗](https://core.telegram.org/bots/api#inlinequeryresultvideo)
   - [x] InlineQueryResultAudio [🔗](https://core.telegram.org/bots/api#inlinequeryresultaudio)
   - [x] InlineQueryResultVoice [🔗](https://core.telegram.org/bots/api#inlinequeryresultvoice)
-  - [ ] InlineQueryResultDocument [🔗](https://core.telegram.org/bots/api#inlinequeryresultdocument)
+  - [x] InlineQueryResultDocument [🔗](https://core.telegram.org/bots/api#inlinequeryresultdocument)
   - [ ] InlineQueryResultLocation [🔗](https://core.telegram.org/bots/api#inlinequeryresultlocation)
   - [ ] InlineQueryResultVenue [🔗](https://core.telegram.org/bots/api#inlinequeryresultvenue)
   - [ ] InlineQueryResultContact [🔗](https://core.telegram.org/bots/api#inlinequeryresultcontact)
