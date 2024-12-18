@@ -312,7 +312,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] InlineQueryResultCachedMpeg4Gif [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedmpeg4gif)
   - [x] InlineQueryResultCachedSticker [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedsticker)
   - [x] InlineQueryResultCachedDocument [🔗](https://core.telegram.org/bots/api#inlinequeryresultcacheddocument)
-  - [ ] InlineQueryResultCachedVideo [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedvideo)
+  - [x] InlineQueryResultCachedVideo [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedvideo)
   - [ ] InlineQueryResultCachedVoice [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedvoice)
   - [ ] InlineQueryResultCachedAudio [🔗](https://core.telegram.org/bots/api#inlinequeryresultcachedaudio)
   - [x] InputMessageContent [🔗](https://core.telegram.org/bots/api#inputmessagecontent)
