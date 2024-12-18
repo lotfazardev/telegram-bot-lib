@@ -300,7 +300,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] InlineQueryResultGif [🔗](https://core.telegram.org/bots/api#inlinequeryresultgif)
   - [x] InlineQueryResultMpeg4Gif [🔗](https://core.telegram.org/bots/api#inlinequeryresultmpeg4gif)
   - [x] InlineQueryResultVideo [🔗](https://core.telegram.org/bots/api#inlinequeryresultvideo)
-  - [ ] InlineQueryResultAudio [🔗](https://core.telegram.org/bots/api#inlinequeryresultaudio)
+  - [x] InlineQueryResultAudio [🔗](https://core.telegram.org/bots/api#inlinequeryresultaudio)
   - [ ] InlineQueryResultVoice [🔗](https://core.telegram.org/bots/api#inlinequeryresultvoice)
   - [ ] InlineQueryResultDocument [🔗](https://core.telegram.org/bots/api#inlinequeryresultdocument)
   - [ ] InlineQueryResultLocation [🔗](https://core.telegram.org/bots/api#inlinequeryresultlocation)
