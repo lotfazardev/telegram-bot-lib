@@ -266,7 +266,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] deleteMessage [🔗](https://core.telegram.org/bots/api#deletemessage)
   - [ ] deleteMessages [🔗](https://core.telegram.org/bots/api#deletemessages)
 - ### Stickers [🔗](https://core.telegram.org/bots/api#stickers)
-  - [ ] Sticker [🔗](https://core.telegram.org/bots/api#sticker)
+  - [x] Sticker [🔗](https://core.telegram.org/bots/api#sticker)
   - [ ] StickerSet [🔗](https://core.telegram.org/bots/api#stickerset)
   - [ ] MaskPosition [🔗](https://core.telegram.org/bots/api#maskposition)
   - [ ] InputSticker [🔗](https://core.telegram.org/bots/api#inputsticker)
