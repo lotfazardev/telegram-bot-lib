@@ -164,7 +164,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] Sending files [🔗](https://core.telegram.org/bots/api#sending-files)
   - [x] Accent colors [🔗](https://core.telegram.org/bots/api#accent-colors)
   - [x] Profile accent colors [🔗](https://core.telegram.org/bots/api#profile-accent-colors)
-  - [ ] Inline mode objects [🔗](https://core.telegram.org/bots/api#inline-mode-objects)
+  - [x] Inline mode objects [🔗](https://core.telegram.org/bots/api#inline-mode-objects)
 - ### Available methods [🔗](https://core.telegram.org/bots/api#available-methods)
   - [ ] getMe [🔗](https://core.telegram.org/bots/api#getme)
   - [ ] logOut [🔗](https://core.telegram.org/bots/api#logout)
