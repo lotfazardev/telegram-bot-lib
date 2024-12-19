@@ -269,7 +269,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] Sticker [🔗](https://core.telegram.org/bots/api#sticker)
   - [x] StickerSet [🔗](https://core.telegram.org/bots/api#stickerset)
   - [x] MaskPosition [🔗](https://core.telegram.org/bots/api#maskposition)
-  - [ ] InputSticker [🔗](https://core.telegram.org/bots/api#inputsticker)
+  - [x] InputSticker [🔗](https://core.telegram.org/bots/api#inputsticker)
   - [ ] sendSticker [🔗](https://core.telegram.org/bots/api#sendsticker)
   - [ ] getStickerSet [🔗](https://core.telegram.org/bots/api#getstickerset)
   - [ ] getCustomEmojiStickers [🔗](https://core.telegram.org/bots/api#getcustomemojistickers)
