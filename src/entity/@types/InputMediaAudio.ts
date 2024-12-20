@@ -18,7 +18,7 @@ export interface InputMediaAudio {
    *
    * More information on Sending Files: https://core.telegram.org/bots/api#sending-files
    */
-  media: string
+  media: SendFile
 
   /**
    * Optional. Thumbnail of the file sent; can be ignored if thumbnail generation for the file is supported server-side.
