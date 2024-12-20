@@ -149,7 +149,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] ChatBoostRemoved [🔗](https://core.telegram.org/bots/api#chatboostremoved)
   - [x] UserChatBoosts [🔗](https://core.telegram.org/bots/api#userchatboosts)
   - [x] BusinessConnection [🔗](https://core.telegram.org/bots/api#businessconnection)
-  - [ ] BusinessMessagesDeleted [🔗](https://core.telegram.org/bots/api#businessmessagesdeleted)
+  - [x] BusinessMessagesDeleted [🔗](https://core.telegram.org/bots/api#businessmessagesdeleted)
   - [x] ResponseParameters [🔗](https://core.telegram.org/bots/api#responseparameters)
   - [x] InputMedia [🔗](https://core.telegram.org/bots/api#inputmedia)
   - [x] InputMediaPhoto [🔗](https://core.telegram.org/bots/api#inputmediaphoto)
