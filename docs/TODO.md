@@ -156,7 +156,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] InputMediaVideo [🔗](https://core.telegram.org/bots/api#inputmediavideo)
   - [ ] InputMediaAnimation [🔗](https://core.telegram.org/bots/api#inputmediaanimation)
   - [ ] InputMediaAudio [🔗](https://core.telegram.org/bots/api#inputmediaaudio)
-  - [ ] InputMediaDocument [🔗](https://core.telegram.org/bots/api#inputmediadocument)
+  - [x] InputMediaDocument [🔗](https://core.telegram.org/bots/api#inputmediadocument)
   - [x] InputFile [🔗](https://core.telegram.org/bots/api#inputfile)
   - [x] InputPaidMedia [🔗](https://core.telegram.org/bots/api#inputpaidmedia)
   - [x] InputPaidMediaPhoto [🔗](https://core.telegram.org/bots/api#inputpaidmediaphoto)
