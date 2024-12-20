@@ -3,7 +3,7 @@
 Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/bots/api#december-4-2024))
 
 - ### Getting updates [🔗](https://core.telegram.org/bots/api#getting-updates)
-  - [ ] Update [🔗](https://core.telegram.org/bots/api#update)
+  - [x] Update [🔗](https://core.telegram.org/bots/api#update)
   - [ ] getUpdates [🔗](https://core.telegram.org/bots/api#getupdates)
   - [ ] setWebhook [🔗](https://core.telegram.org/bots/api#setwebhook)
   - [ ] deleteWebhook [🔗](https://core.telegram.org/bots/api#deletewebhook)
