@@ -8,7 +8,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] setWebhook [🔗](https://core.telegram.org/bots/api#setwebhook)
   - [ ] deleteWebhook [🔗](https://core.telegram.org/bots/api#deletewebhook)
   - [ ] getWebhookInfo [🔗](https://core.telegram.org/bots/api#getwebhookinfo)
-  - [ ] WebhookInfo [🔗](https://core.telegram.org/bots/api#webhookinfo)
+  - [x] WebhookInfo [🔗](https://core.telegram.org/bots/api#webhookinfo)
 - ### Available types [🔗](https://core.telegram.org/bots/api#available-types)
   - [x] User [🔗](https://core.telegram.org/bots/api#user)
   - [x] Chat [🔗](https://core.telegram.org/bots/api#chat)
