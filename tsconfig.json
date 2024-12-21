@@ -14,10 +14,11 @@
     "target": "ESNext",
     "baseUrl": "./src",
     "paths": {
-      "@src/*": ["./*"],
-      "@utils/*": ["./utils/*"],
+      "@constant/*": ["./constant/*"],
+      "@core/*": ["./core/*"],
       "@entity/*": ["./entity/*"],
-      "@core/*": ["./core/*"]
+      "@src/*": ["./*"],
+      "@utils/*": ["./utils/*"]
     }
   },
   "include": ["src"],
