@@ -219,7 +219,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] unpinChatMessage [🔗](https://core.telegram.org/bots/api#unpinchatmessage)
   - [ ] unpinAllChatMessages [🔗](https://core.telegram.org/bots/api#unpinallchatmessages)
   - [ ] leaveChat [🔗](https://core.telegram.org/bots/api#leavechat)
-  - [ ] getChat [🔗](https://core.telegram.org/bots/api#getchat)
+  - [x] getChat [🔗](https://core.telegram.org/bots/api#getchat)
   - [ ] getChatAdministrators [🔗](https://core.telegram.org/bots/api#getchatadministrators)
   - [ ] getChatMemberCount [🔗](https://core.telegram.org/bots/api#getchatmembercount)
   - [ ] getChatMember [🔗](https://core.telegram.org/bots/api#getchatmember)
