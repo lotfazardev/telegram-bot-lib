@@ -190,7 +190,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] sendContact [🔗](https://core.telegram.org/bots/api#sendcontact)
   - [ ] sendPoll [🔗](https://core.telegram.org/bots/api#sendpoll)
   - [ ] sendDice [🔗](https://core.telegram.org/bots/api#senddice)
-  - [ ] sendChatAction [🔗](https://core.telegram.org/bots/api#sendchataction)
+  - [x] sendChatAction [🔗](https://core.telegram.org/bots/api#sendchataction)
   - [ ] setMessageReaction [🔗](https://core.telegram.org/bots/api#setmessagereaction)
   - [ ] getUserProfilePhotos [🔗](https://core.telegram.org/bots/api#getuserprofilephotos)
   - [ ] setUserEmojiStatus [🔗](https://core.telegram.org/bots/api#setuseremojistatus)

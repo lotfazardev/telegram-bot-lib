@@ -1,8 +1,13 @@
 import BaseTelegramApiEntity from '@core/BaseTelegramApiEntity'
-import { User } from '../@types/User'
+
+//params types
+import { SendMessageParams } from '@entity/Available/@types/SendMessageParams'
+import { SendChatActionParams } from '@entity/Available/@types/SendChatActionParams'
+
+//response types
 import { Message } from '@entity/@types/Message'
-import { ChatFullInfo } from '../@types/ChatFullInfo'
-import { SendMessageParams } from './@types/SendMessageParams'
+import { ChatFullInfo } from '@entity/@types/ChatFullInfo'
+import { User } from '@entity/@types/User'
 
 export default class Available extends BaseTelegramApiEntity {
   async getMe() {
@@ -10,19 +15,29 @@ export default class Available extends BaseTelegramApiEntity {
       method: 'getMe',
     })
   }
-  async getChat(chat_id: number | string) {
-    return this.apiAgent<ChatFullInfo>({
-      method: 'getChat',
-      options: {
-        body: JSON.stringify({ chat_id }),
-      },
-    })
-  }
   async sendMessage(sendMessageParams: SendMessageParams) {
     return this.apiAgent<Message>({
       method: 'sendMessage',
       options: {
         body: JSON.stringify(sendMessageParams),
+      },
+    })
+  }
+
+  async sendChatAction(sendChatActionParams: SendChatActionParams) {
+    return this.apiAgent<true>({
+      method: 'sendChatAction',
+      options: {
+        body: JSON.stringify(sendChatActionParams),
+      },
+    })
+  }
+
+  async getChat(chat_id: number | string) {
+    return this.apiAgent<ChatFullInfo>({
+      method: 'getChat',
+      options: {
+        body: JSON.stringify({ chat_id }),
       },
     })
   }
