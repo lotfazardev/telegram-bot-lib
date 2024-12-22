@@ -9,9 +9,6 @@ const apiAgentBuilder: ApiAgentBuilder = ({ baseUrl, timeout }) => {
     try {
       const response = await fetch(`${baseUrl}/${method}`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
         signal: controller.signal,
         ...options,
       })
