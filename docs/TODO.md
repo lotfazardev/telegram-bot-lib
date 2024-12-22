@@ -192,7 +192,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] sendDice [🔗](https://core.telegram.org/bots/api#senddice)
   - [x] sendChatAction [🔗](https://core.telegram.org/bots/api#sendchataction)
   - [ ] setMessageReaction [🔗](https://core.telegram.org/bots/api#setmessagereaction)
-  - [ ] getUserProfilePhotos [🔗](https://core.telegram.org/bots/api#getuserprofilephotos)
+  - [x] getUserProfilePhotos [🔗](https://core.telegram.org/bots/api#getuserprofilephotos)
   - [ ] setUserEmojiStatus [🔗](https://core.telegram.org/bots/api#setuseremojistatus)
   - [ ] getFile [🔗](https://core.telegram.org/bots/api#getfile)
   - [ ] banChatMember [🔗](https://core.telegram.org/bots/api#banchatmember)

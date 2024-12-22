@@ -3,11 +3,12 @@ import BaseTelegramApiEntity from '@core/BaseTelegramApiEntity'
 //params types
 import { SendMessageParams } from '@entity/Available/@types/SendMessageParams'
 import { SendChatActionParams } from '@entity/Available/@types/SendChatActionParams'
-
+import { GetUserProfilePhotosParams } from '@entity/Available/@types/GetUserProfilePhotosParams'
 //response types
 import { Message } from '@entity/@types/Message'
 import { ChatFullInfo } from '@entity/@types/ChatFullInfo'
 import { User } from '@entity/@types/User'
+import { UserProfilePhotos } from '@entity/@types/UserProfilePhotos'
 
 export default class Available extends BaseTelegramApiEntity {
   async getMe() {
@@ -30,6 +31,13 @@ export default class Available extends BaseTelegramApiEntity {
       options: {
         body: JSON.stringify(sendChatActionParams),
       },
+    })
+  }
+
+  async getUserProfilePhotos(getUserProfilePhotosParams: GetUserProfilePhotosParams) {
+    return this.apiAgent<UserProfilePhotos>({
+      method: 'getUserProfilePhotos',
+      options: { body: JSON.stringify(getUserProfilePhotosParams) },
     })
   }
 
