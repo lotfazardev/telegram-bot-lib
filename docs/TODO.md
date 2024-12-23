@@ -169,7 +169,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] getMe [🔗](https://core.telegram.org/bots/api#getme)
   - [ ] logOut [🔗](https://core.telegram.org/bots/api#logout)
   - [ ] close [🔗](https://core.telegram.org/bots/api#close)
-  - [ ] sendMessage [🔗](https://core.telegram.org/bots/api#sendmessage)
+  - [x] sendMessage [🔗](https://core.telegram.org/bots/api#sendmessage)
   - [ ] Formatting options [🔗](https://core.telegram.org/bots/api#formatting-options)
   - [ ] Paid Broadcasts [🔗](https://core.telegram.org/bots/api#paid-broadcasts)
   - [ ] forwardMessage [🔗](https://core.telegram.org/bots/api#forwardmessage)
