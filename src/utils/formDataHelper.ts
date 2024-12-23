@@ -1,4 +1,4 @@
-export const createFormData = (payload: Record<string, any>): FormData => {
+const createFormData = (payload: Record<string, any>): FormData => {
   const formData = new FormData()
   Object.entries(payload).forEach(([key, value]) => {
     if (value instanceof Blob || value instanceof File) {
@@ -9,3 +9,5 @@ export const createFormData = (payload: Record<string, any>): FormData => {
   })
   return formData
 }
+
+export default createFormData

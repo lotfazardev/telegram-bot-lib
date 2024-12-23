@@ -1,8 +1,8 @@
 import { TelegramResponse } from '@src/@types'
-import type { ApiAgentBuilder, ApiAgent, ApiAgentProps } from './@types'
+import type { ApiAgentBuilder, ApiAgentProps } from './@types'
 
 const apiAgentBuilder: ApiAgentBuilder = ({ baseUrl, timeout }) => {
-  return (async <T = {}>(props: ApiAgentProps): Promise<T> => {
+  return async <T = {}>(props: ApiAgentProps): Promise<T> => {
     const { method, options } = props
     const controller = new AbortController()
     const id = setTimeout(() => controller.abort(), timeout)
@@ -26,7 +26,7 @@ const apiAgentBuilder: ApiAgentBuilder = ({ baseUrl, timeout }) => {
     } finally {
       clearTimeout(id)
     }
-  }) satisfies ApiAgent
+  }
 }
 
 export default apiAgentBuilder
