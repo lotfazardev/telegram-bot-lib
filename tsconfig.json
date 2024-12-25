@@ -8,19 +8,19 @@
     "moduleResolution": "node",
     "noUncheckedIndexedAccess": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@constant/*": ["./constant/*"],
-      "@core/*": ["./core/*"],
-      "@entity/*": ["./entity/*"],
-      "@src/*": ["./*"],
-      "@utils/*": ["./utils/*"]
+      "@constant/*": ["src/constant/*"],
+      "@core/*": ["src/core/*"],
+      "@entity/*": ["src/entity/*"],
+      "@src/*": ["src/*"],
+      "@utils/*": ["src/utils/*"]
     }
   },
-  "include": ["src"],
-  "exclude": ["dist", "node_modules", "test"]
+  "include": ["src", "test"],
+  "exclude": ["dist", "node_modules"]
 }
