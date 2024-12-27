@@ -1,6 +1,6 @@
 import BaseTelegramApiEntity from '@core/BaseTelegramApiEntity'
 import { Message } from '@entity/@types/Message'
-import { SendGameParams } from './@types'
+import { SendGameParams, SetGameScoreParams } from './@types'
 
 export default class Games extends BaseTelegramApiEntity {
   /**
@@ -8,5 +8,14 @@ export default class Games extends BaseTelegramApiEntity {
    */
   async sendGame(sendGameParams: SendGameParams) {
     return this.jsonCall<Message>('sendGame', sendGameParams)
+  }
+
+  /**
+   * Use this method to set the score of the specified user in a game message.
+   * On success, if the message is not an inline message, the Message is returned,
+   * otherwise True is returned.
+   */
+  async setGameScore(setGameScoreParams: SetGameScoreParams) {
+    return this.jsonCall<Message | boolean>('setGameScore', setGameScoreParams)
   }
 }
