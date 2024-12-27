@@ -1,6 +1,7 @@
 import BaseTelegramApiEntity from '@core/BaseTelegramApiEntity'
+import { GetGameHighScoresParams, SendGameParams, SetGameScoreParams } from './@types'
 import { Message } from '@entity/@types/Message'
-import { SendGameParams, SetGameScoreParams } from './@types'
+import { GameHighScore } from '@entity/@types/GameHighScore'
 
 export default class Games extends BaseTelegramApiEntity {
   /**
@@ -17,5 +18,13 @@ export default class Games extends BaseTelegramApiEntity {
    */
   async setGameScore(setGameScoreParams: SetGameScoreParams) {
     return this.jsonCall<Message | boolean>('setGameScore', setGameScoreParams)
+  }
+
+  /**
+   * Use this method to get data for high score tables.
+   * On success, returns an array of GameHighScore objects.
+   */
+  async getGameHighScores(getGameHighScoresParams: GetGameHighScoresParams) {
+    return this.jsonCall<GameHighScore[]>('getGameHighScores', getGameHighScoresParams)
   }
 }

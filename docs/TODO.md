@@ -379,5 +379,5 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [x] Game [🔗](https://core.telegram.org/bots/api#game)
   - [x] CallbackGame [🔗](https://core.telegram.org/bots/api#callbackgame)
   - [x] setGameScore [🔗](https://core.telegram.org/bots/api#setgamescore)
-  - [ ] getGameHighScores [🔗](https://core.telegram.org/bots/api#getgamehighscores)
+  - [x] getGameHighScores [🔗](https://core.telegram.org/bots/api#getgamehighscores)
   - [x] GameHighScore [🔗](https://core.telegram.org/bots/api#gamehighscore)
