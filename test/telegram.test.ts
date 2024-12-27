@@ -6,7 +6,6 @@ describe('🧙‍♂️ Telegram Class Instantiation', () => {
   })
 
   it('Correctly with a valid API key', () => {
-    console.log(process.env.API_KEY)
     const telegram = new Telegram({ apiKey: process.env.API_KEY || '' })
     expect(telegram).toBeDefined()
   })
