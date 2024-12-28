@@ -11,6 +11,7 @@ import { ChatFullInfo } from '@entity/@types/ChatFullInfo'
 import { User } from '@entity/@types/User'
 import { UserProfilePhotos } from '@entity/@types/UserProfilePhotos'
 import { SendAudioParams } from './@types/SendAudioParams'
+import { SendDocumentParams } from './@types/SendDocumentParams'
 export default class Available extends BaseTelegramApiEntity {
   async getMe() {
     return this.jsonCall<User>('getMe')
@@ -25,6 +26,10 @@ export default class Available extends BaseTelegramApiEntity {
 
   async sendAudio(sendAudioParams: SendAudioParams) {
     return this.multipartCall<Message>('sendAudio', sendAudioParams)
+  }
+
+  async sendDocument(sendDocumentParams: SendDocumentParams) {
+    return this.multipartCall<Message>('sendDocument', sendDocumentParams)
   }
 
   async sendChatAction(sendChatActionParams: SendChatActionParams) {

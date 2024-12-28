@@ -178,7 +178,7 @@ Latest version : 🚀 December 4, 2024 ([Bot API 8.1](https://core.telegram.org/
   - [ ] copyMessages [🔗](https://core.telegram.org/bots/api#copymessages)
   - [x] sendPhoto [🔗](https://core.telegram.org/bots/api#sendphoto)
   - [x] sendAudio [🔗](https://core.telegram.org/bots/api#sendaudio)
-  - [ ] sendDocument [🔗](https://core.telegram.org/bots/api#senddocument)
+  - [x] sendDocument [🔗](https://core.telegram.org/bots/api#senddocument)
   - [ ] sendVideo [🔗](https://core.telegram.org/bots/api#sendvideo)
   - [ ] sendAnimation [🔗](https://core.telegram.org/bots/api#sendanimation)
   - [ ] sendVoice [🔗](https://core.telegram.org/bots/api#sendvoice)
