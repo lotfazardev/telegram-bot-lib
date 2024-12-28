@@ -19,27 +19,14 @@ export default class Available extends BaseTelegramApiEntity {
   }
 
   async sendChatAction(sendChatActionParams: SendChatActionParams) {
-    return this.apiAgent<true>({
-      method: 'sendChatAction',
-      options: {
-        body: JSON.stringify(sendChatActionParams),
-      },
-    })
+    return this.jsonCall<true>('sendChatAction', sendChatActionParams)
   }
 
   async getUserProfilePhotos(getUserProfilePhotosParams: GetUserProfilePhotosParams) {
-    return this.apiAgent<UserProfilePhotos>({
-      method: 'getUserProfilePhotos',
-      options: { body: JSON.stringify(getUserProfilePhotosParams) },
-    })
+    return this.jsonCall<UserProfilePhotos>('getUserProfilePhotos', getUserProfilePhotosParams)
   }
 
   async getChat(chat_id: number | string) {
-    return this.apiAgent<ChatFullInfo>({
-      method: 'getChat',
-      options: {
-        body: JSON.stringify({ chat_id }),
-      },
-    })
+    return this.jsonCall<ChatFullInfo>('getChat', { chat_id })
   }
 }
