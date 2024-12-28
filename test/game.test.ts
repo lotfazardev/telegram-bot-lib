@@ -1,7 +1,7 @@
 import Telegram from '@src/Telegram'
 
 describe('🎮 Telegram Game Entity', () => {
-  const apiKey = String(process.env.API_KEY)
+  const apiKey = String(process.env.GAME_BOT_API_KEY)
   const userId = Number(process.env.USER_ID)
   const gameShortName = String(process.env.GAME_SHORT_NAME)
   const telegramClient = new Telegram({ apiKey })
