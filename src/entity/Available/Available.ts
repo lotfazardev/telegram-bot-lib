@@ -20,17 +20,7 @@ export default class Available extends BaseTelegramApiEntity {
   }
 
   async sendPhoto(sendPhotoParams: SendPhotoParams) {
-    if (typeof sendPhotoParams.photo === 'string') {
-      return this.jsonCall<Message>('sendPhoto', sendPhotoParams)
-    } else if (
-      sendPhotoParams.photo instanceof Blob ||
-      sendPhotoParams.photo instanceof File ||
-      sendPhotoParams.photo instanceof ReadableStream
-    ) {
-      return this.multipartCall<Message>('sendPhoto', sendPhotoParams)
-    } else {
-      throw new Error('Invalid type for photo')
-    }
+    return this.multipartCall<Message>('sendPhoto', sendPhotoParams)
   }
 
   async sendAudio(sendAudioParams: SendAudioParams) {
