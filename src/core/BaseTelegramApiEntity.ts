@@ -31,7 +31,6 @@ export default abstract class BaseTelegramApiEntity {
       method,
       options: {
         body: createFormData(payload),
-        headers: { 'Content-Type': 'multipart/form-data' },
       },
     })
 }
