@@ -6,6 +6,7 @@ describe('🎮 Telegram Game Entity', () => {
   const gameShortName = String(process.env.GAME_SHORT_NAME)
   const telegramClient = new Telegram({ apiKey })
   let messageId = 0
+  const gameScore = Math.floor(Math.random() * 10000)
 
   it('Validates required environment variables.', () => {
     expect(apiKey).toBeDefined()
@@ -31,13 +32,22 @@ describe('🎮 Telegram Game Entity', () => {
   })
 
   it('Correctly sets score for user.', async () => {
-    const sendGameResult = await telegramClient.setGameScore({
+    const setGameScoreResult = await telegramClient.setGameScore({
       chat_id: userId,
       user_id: userId,
-      score: Math.random() * 10000,
+      score: gameScore,
       force: true,
       message_id: messageId,
     })
-    expect(sendGameResult).toBeDefined()
+    expect(setGameScoreResult).toBeDefined()
+  })
+
+  it('Correctly get score of user.', async () => {
+    const getGameHighScoresResult = await telegramClient.getGameHighScores({
+      chat_id: userId,
+      user_id: userId,
+      message_id: messageId,
+    })
+    expect(getGameHighScoresResult[0]?.score).toBe(gameScore)
   })
 })
