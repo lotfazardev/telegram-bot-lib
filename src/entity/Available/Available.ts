@@ -10,6 +10,7 @@ import { Message } from '@entity/@types/Message'
 import { ChatFullInfo } from '@entity/@types/ChatFullInfo'
 import { User } from '@entity/@types/User'
 import { UserProfilePhotos } from '@entity/@types/UserProfilePhotos'
+import { SendAudioParams } from './@types/SendAudioParams'
 export default class Available extends BaseTelegramApiEntity {
   async getMe() {
     return this.jsonCall<User>('getMe')
@@ -30,6 +31,10 @@ export default class Available extends BaseTelegramApiEntity {
     } else {
       throw new Error('Invalid type for photo')
     }
+  }
+
+  async sendAudio(sendAudioParams: SendAudioParams) {
+    return this.multipartCall<Message>('sendAudio', sendAudioParams)
   }
 
   async sendChatAction(sendChatActionParams: SendChatActionParams) {
