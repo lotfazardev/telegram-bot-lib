@@ -46,6 +46,7 @@ export default [
     files: ['test/**/*.ts'],
     rules: {
       'no-global-assign': 'off',
+      'n/no-missing-import': 'off',
     },
   },
 ]

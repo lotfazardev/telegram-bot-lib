@@ -1,5 +1,3 @@
-import apiAgentBuilder from '../apiAgentBuilder'
-
 export interface ApiAgentBuilderProps {
   baseUrl: string
   timeout: number

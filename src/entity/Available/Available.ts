@@ -12,17 +12,10 @@ import { UserProfilePhotos } from '@entity/@types/UserProfilePhotos'
 
 export default class Available extends BaseTelegramApiEntity {
   async getMe() {
-    return this.apiAgent<User>({
-      method: 'getMe',
-    })
+    return this.jsonCall<User>('getMe')
   }
   async sendMessage(sendMessageParams: SendMessageParams) {
-    return this.apiAgent<Message>({
-      method: 'sendMessage',
-      options: {
-        body: JSON.stringify(sendMessageParams),
-      },
-    })
+    return this.jsonCall<Message>('sendMessage', sendMessageParams)
   }
 
   async sendChatAction(sendChatActionParams: SendChatActionParams) {
