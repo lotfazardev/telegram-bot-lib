@@ -1,7 +1,6 @@
-import { BaseTelegramApiEntityProps } from '@src/@types'
-import { createFormData } from '@src/utils/formDataHelper'
-import apiAgentBuilder from '@src/utils/apiAgentBuilder'
 import { ApiAgent } from '@utils/@types'
+import { BaseTelegramApiEntityProps } from '@src/@types'
+import { createFormData, apiAgentBuilder } from '@src/utils'
 
 export default abstract class BaseTelegramApiEntity {
   private apiAgent: ApiAgent
