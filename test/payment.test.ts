@@ -21,7 +21,7 @@ describe('💳 Telegram Payment Entity', () => {
 
   it('Correctly sends invoice to user.', async () => {
     const result = await telegramClient.sendInvoice({
-      chat_id: 5169431105,
+      chat_id: userId,
       title: 'Test Product',
       description: 'This is a test product description.',
       payload: 'test_payload',
