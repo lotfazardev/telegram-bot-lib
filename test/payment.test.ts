@@ -35,4 +35,18 @@ describe('💳 Telegram Payment Entity', () => {
     expect(result.invoice?.title).toBe('Test Product')
     expect(result.invoice?.description).toBe('This is a test product description.')
   })
+
+  it('Correctly sends invoice link to user.', async () => {
+    const result = await telegramClient.createInvoiceLink({
+      title: 'Test Invoice Link',
+      description: 'Link to the test invoice.',
+      payload: 'test_payload_link',
+      provider_token: providerToken,
+      currency: 'USD',
+      prices: [{ label: 'Test Item', amount: 5000 }],
+    })
+
+    expect(result).toBeDefined()
+    expect(result).toContain('https://')
+  })
 })
