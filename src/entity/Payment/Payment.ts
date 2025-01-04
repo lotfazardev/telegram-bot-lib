@@ -1,5 +1,5 @@
 import BaseTelegramApiEntity from '@core/BaseTelegramApiEntity'
-import { SendInvoiceParams } from './@types'
+import { CreateInvoiceLinkParams, SendInvoiceParams } from './@types'
 import { Message } from '@entity/@types/Message'
 
 export default class Payment extends BaseTelegramApiEntity {
@@ -9,5 +9,13 @@ export default class Payment extends BaseTelegramApiEntity {
    */
   async sendInvoice(sendInvoiceParams: SendInvoiceParams) {
     return this.jsonCall<Message>('sendInvoice', sendInvoiceParams)
+  }
+
+  /**
+   * Use this method to create a link for an invoice.
+   * On success, the created invoice link as a string is returned.
+   */
+  async createInvoiceLink(createInvoiceLinkParams: CreateInvoiceLinkParams) {
+    return this.jsonCall<string>('createInvoiceLink', createInvoiceLinkParams)
   }
 }
